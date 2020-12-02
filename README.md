@@ -21,11 +21,13 @@ There is no benefit (with this code) to using one format over another.
 
 ## How does it work?
 
-`load_grid` loads an external sudoku file into a two dimensional (9x9) array. Each cell contains the number in it and `0` if it is empty.
+`load_grid` loads an external sudoku file into a two dimensional (9x9) array. Each cell contains the number in it and `0` if it is empty. Lines which start with `#` are ignored, `.` and `X` are treated as `0` and anything which isn't a number is ignored. This allows the file to contain spacing, dashes and other elements to make it easier to read.
 
 `is_possible` takes the x and y co-ordinates of the grid (eg. `x=1,y=1` is the top-left corner) and a number and returns whether or not it is possible to have that number in that cell without breaking the rules of Sudoku. It does this by checking that the number isn't already there in the same row or column and not in the 3x3 cells.
 
 `solve_grid` walks through each cell in the grid and stops at one which doesn't have a number. It starts at `1` and uses `is_possible` to determine if that number can go there. If it can then it calls itself (this is the recursion), which then walks through each cell in the grid and stops at the next one that doesn't have a number. If no numbers are possible then the function exits and returns to the previous call (this is the backtracking) which then increases the number. If it gets to the very end with no problems then we have a solution. If it rolls back to the very first call then we've exhausted the options and we are finished.
+
+`display_grid` takes the array and outputs it in a (moderately) pretty way so that you can easily read the grid. It uses `|` and `-` to draw lines between each of the 3x3 blocks.
 
 If this is making your head spin, then there is a very good [YouTube video on how it works](https://www.youtube.com/watch?v=G_UYXzGuqvM), although they use Python to create the solution.
 
