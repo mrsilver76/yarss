@@ -1,7 +1,7 @@
 # YARSS - Yet Another Recursive Sudoku Solver
 **A Sudoku solver which uses brute force, recursion and backtracking to solve any (solveable) Sudoku puzzle.**
 
-Written in VBScript (for Windows) and Perl (for other operating systems). You can run the Perl one in Windows if you want, but you'll need to install Perl to do it.
+Written in VBScript (for Windows) and Perl (for other operating systems). Windows users are recommended to run the VBScript version, although the Perl version will work if you install [Strawberry Perl](http://strawberryperl.com/) first (which is probably overkill for one thing).
 
 Reads Sudoku puzzles in `.sdk` or `.ss` file formats and outputs any possible solutions. If the puzzle has been devised poorly then there may be no solutions or more than one solution. The code will get them all.
 
@@ -10,7 +10,7 @@ Reads Sudoku puzzles in `.sdk` or `.ss` file formats and outputs any possible so
  * Windows - open a command line prompt and type `cscript yarss.vbs <puzzle>`
  * Others - open a command line prompt and type `perl yarss.pl <puzzle>`
 
-`<puzzle>` is the filename of a Sudoku puzzle. Some sample puzzles are included, including one which proclaims to be the [world's hardest](https://puzzling.stackexchange.com/questions/252/how-do-i-solve-the-worlds-hardest-sudoku).
+`<puzzle>` is the filename of a Sudoku puzzle. Some sample puzzles are included, including one which proclaims to be the [world's hardest](https://puzzling.stackexchange.com/questions/252/how-do-i-solve-the-worlds-hardest-sudoku) (imaginately titled `worlds-hardest.sdk`).
 
 If you want to create your own (or solve one that is bugging you) then details of the file formats can be found in the links below:
 
