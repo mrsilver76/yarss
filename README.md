@@ -23,7 +23,7 @@ If you want to create your own (or solve one that is bugging you) then details o
 * https://www.sudocue.net/fileformats.php
 * http://www.sadmansoftware.com/sudoku/faq19.php
 
-There is no benefit (with this code) to using one format over another.
+It does not matter if you use the `.sdk` or `.ss` file format. There is no benefit (with this program) in using one over the other.
 
 ## How does it work?
 
