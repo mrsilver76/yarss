@@ -5,9 +5,6 @@
 
 This program reads Sudoku puzzles (in `.sdk` or `.ss` file formats) and outputs any possible solutions. If the puzzle has been devised poorly then there may be no solutions or more than one solution, it will display them all.
 
-
-. 
-
 ## Usage
 
 The program is written in Perl. Windows users are recommended to just run the provided executable (which has been created using [TinyPerl](http://tinyperl.sourceforge.net/)) - however it is possible (albeit more complicated) to install something like [Strawberry Perl](https://strawberryperl.com/) and run `yarss.pl` instead. 
