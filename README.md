@@ -7,7 +7,7 @@ This program (written in Perl) reads Sudoku puzzles (in `.sdk` or `.ss` file for
 
 ## Usage
 
-Download the latest version from https://github.com/mrsilver76/yarss/releases and extract all the files.
+Download the latest version from https://github.com/mrsilver76/yarss/archive/main.zip and extract all the files.
 
  * **Windows** - open a command line prompt and type `yarss.exe <puzzle>`. Make sure that you have the `perl58.dll` and `lib.zip` files in the same location as `yarss.exe`.
  * **Others** - open a command line prompt and type `perl yarss.pl <puzzle>`. Make sure you have Perl installed on your system.
