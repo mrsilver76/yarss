@@ -1,15 +1,19 @@
 # YARSS - Yet Another Recursive Sudoku Solver
 **A Sudoku solver which uses brute force, recursion and backtracking to solve any (solveable) Sudoku puzzle.**
 
-This program reads Sudoku puzzles (in `.sdk` or `.ss` file formats) and outputs any possible solutions. If the puzzle has been devised poorly then there may be no solutions or more than one solution, it will get them all.
+## Abstract
 
-The program is written in Perl. Windows users are recommended to just run the provided executable (which has been created using [TinyPerl](http://tinyperl.sourceforge.net/)) - however it is possible (albeit more complicated) to install something like [Strawberry Perl](https://strawberryperl.com/) and run `yarss.pl` instead. 
+This program reads Sudoku puzzles (in `.sdk` or `.ss` file formats) and outputs any possible solutions. If the puzzle has been devised poorly then there may be no solutions or more than one solution, it will display them all.
+
+
 . 
 
 ## Usage
 
- * Windows - open a command line prompt and type `yarss.exe <puzzle>`. Make sure that you have the `perl58.dll` and `lib.zip` files in the same location as `yarss.exe`.
- * Others - open a command line prompt and type `perl yarss.pl <puzzle>`. Make sure you have Perl installed on your system.
+The program is written in Perl. Windows users are recommended to just run the provided executable (which has been created using [TinyPerl](http://tinyperl.sourceforge.net/)) - however it is possible (albeit more complicated) to install something like [Strawberry Perl](https://strawberryperl.com/) and run `yarss.pl` instead. 
+
+ * **Windows** - open a command line prompt and type `yarss.exe <puzzle>`. Make sure that you have the `perl58.dll` and `lib.zip` files in the same location as `yarss.exe`.
+ * **Others** - open a command line prompt and type `perl yarss.pl <puzzle>`. Make sure you have Perl installed on your system.
 
 `<puzzle>` is the filename of a Sudoku puzzle. Some sample puzzles are included in the `puzzles` folder, including one which proclaims to be the [world's hardest](https://puzzling.stackexchange.com/questions/252/how-do-i-solve-the-worlds-hardest-sudoku) (imaginately titled `worlds-hardest.sdk`).
 
