@@ -3,9 +3,7 @@
 
 ## Abstract
 
-This program reads Sudoku puzzles (in `.sdk` or `.ss` file formats) and outputs any possible solutions. If the puzzle has been devised poorly then there may be no solutions or more than one solution, it will display them all.
-
-It is written in Perl.
+This program (written in Perl) reads Sudoku puzzles (in `.sdk` or `.ss` file formats) and outputs any possible solutions. If there is more than one solution then it will display them all.
 
 ## Usage
 
