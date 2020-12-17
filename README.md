@@ -1,5 +1,5 @@
 # YARSS - Yet Another Recursive Sudoku Solver
-**A Sudoku solver which uses brute force, recursion and backtracking to solve any (solveable) Sudoku puzzle.**
+**A solver which uses brute force, recursion and backtracking to solve any (solvable) Sudoku puzzle.**
 
 ## Abstract
 
