@@ -23,9 +23,29 @@ If you want to create your own (or solve one that is bugging you) then details o
 * https://www.sudocue.net/fileformats.php
 * http://www.sadmansoftware.com/sudoku/faq19.php
 
-It does not matter if you use the `.sdk` or `.ss` file format. There is no benefit (with this program) in using one over the other.
+At it's most basic level, it's just 9 lines of 9 numbers in a row with `0`, `X` or `.` to indicate an empty cell. You can use spaces, newlines and other characters to make the file more readable if you'd like as they'll be ignored. Lines starting with `#` will also be ignored (which is useful for embedding commentary).
+
+Here is an example file which can be saved with either the `.ss` or `.sdk` file ending:
+
+    # This puzzle is on the wikipedia page for 'sudoku'
+    # https://en.wikipedia.org/wiki/Sudoku
+    53. .7. ...
+    6.. 195 ...
+    .98 ... .6.
+    
+    8.. .6. ..3
+    4.. 8.3 ..1
+    7.. .2. ..6
+    
+    .6. ... 28.
+    ... 419 ..5
+    ... .8. .79
+    
+It does not matter if you use the `.sdk` or `.ss` file format and you don't have to have the match the format to the correct extention - so there is no benefit (with this program) in using one format over the other.
 
 ## How does it work?
+
+The code itself (`yarss.pl`) contains a lot of comments about how it works. You can open it in any good text editor.
 
 `load_grid` loads an external sudoku file into a two dimensional (9x9) array. Each cell contains the number in it and `0` if it is empty. Lines which start with `#` are ignored, `.` and `X` are treated as `0` and anything which isn't a number is ignored. This allows the file to contain spacing, dashes and other elements to make it easier to read.
 
