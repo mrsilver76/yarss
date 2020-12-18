@@ -3,7 +3,7 @@
 
 ## Abstract
 
-This program (written in Perl) reads Sudoku puzzles (in `.sdk` or `.ss` file formats) and outputs any possible solutions. If there is more than one solution then it will display them all.
+This program (written in Perl) reads [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzles (in `.sdk` or `.ss` file formats) and outputs any possible solutions. If there is more than one solution then it will display them all. Properly constructed Sudoku puzzles should have only one solution.
 
 ## Usage
 
@@ -18,10 +18,12 @@ Windows users are recommended to just run the provided executable (which has bee
 
 ## Puzzle file format
 
-If you want to create your own (or solve one that is bugging you) then details of the file formats can be found in the links below:
+If you want to create your own (or solve one that is bugging you) then details of the supported file formats can be found in the links below:
 
 * https://www.sudocue.net/fileformats.php
 * http://www.sadmansoftware.com/sudoku/faq19.php
+
+The included puzzles all use different styles to demonstrate what can be used - so it's worthwhile opening them in a text editor and taking a look. 
 
 At it's most basic level, it's just 9 lines of 9 numbers in a row with `0`, `X` or `.` to indicate an empty cell. You can use spaces, newlines and other characters to make the file more readable if you'd like as they'll be ignored. Lines starting with `#` will also be ignored (which is useful for embedding commentary).
 
