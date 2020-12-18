@@ -25,6 +25,8 @@ If you want to create your own (or solve one that is bugging you) then details o
 
 At it's most basic level, it's just 9 lines of 9 numbers in a row with `0`, `X` or `.` to indicate an empty cell. You can use spaces, newlines and other characters to make the file more readable if you'd like as they'll be ignored. Lines starting with `#` will also be ignored (which is useful for embedding commentary).
 
+It does not matter if you use the `.sdk` or `.ss` file format and you don't have to have the match the format to the correct extention - so there is no benefit (with this program) in using one format over the other.
+
 Here is an example file which can be saved with either the `.ss` or `.sdk` file ending:
 
     # This puzzle is on the wikipedia page for 'sudoku'
@@ -40,8 +42,6 @@ Here is an example file which can be saved with either the `.ss` or `.sdk` file 
     .6. ... 28.
     ... 419 ..5
     ... .8. .79
-    
-It does not matter if you use the `.sdk` or `.ss` file format and you don't have to have the match the format to the correct extention - so there is no benefit (with this program) in using one format over the other.
 
 ## How does it work?
 
