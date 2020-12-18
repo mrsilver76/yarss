@@ -5,6 +5,8 @@
 
 This program (written in Perl) reads [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzles (in `.sdk` or `.ss` file formats) and outputs any possible solutions. If there is more than one solution then it will display them all. Properly constructed Sudoku puzzles should have only one solution.
 
+![screenshot](https://github.com/mrsilver76/yarss/blob/main/screen.png?raw=true)
+
 ## Usage
 
 Download the latest version from https://github.com/mrsilver76/yarss/archive/main.zip and extract all the files.
