@@ -1,9 +1,18 @@
 # YARSS - Yet Another Recursive Sudoku Solver
-**A solver which uses brute force, recursion and backtracking to solve any (solvable) Sudoku puzzle.**
+*A program that attempts to solve [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzles through the use of brute force, recursion and backtracking. If there is more than one solution, then it will display them all.*
 
-## Abstract
+## Features
 
-This program (written in Perl) reads [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzles (in `.sdk` or `.ss` file formats) and outputs any possible solutions. If there is more than one solution then it will display them all. Properly constructed Sudoku puzzles should have only one solution.
+- 🖥️ Runs on Windows, Linux, and MacOS with a standard Perl interpreter.
+- 📦 A pre-compiled Windows executable is available, no need to install Perl or Linux.
+- 🧮 Solves any logically solvable Sudoku puzzle using recursive brute-force backtracking.
+- 🔎 Displays all possible solutions, not just the first one found - ideal for identifying ambiguous or invalid puzzles.
+- 📂 Reads puzzles from Sadman (`.sdk`) and SudoCue (`.ss`) file formats.
+- 🧪 Includes a collection of sample puzzles to get started quickly.
+- 📖 Source code is thoroughly documented, making it easy to read, modify, and extend.
+- 🧾 Outputs solutions in a clean, visual grid format that is easy to read at a glance.
+
+## Screenshot
 
 ![screenshot](https://github.com/mrsilver76/yarss/blob/main/screen.png?raw=true)
 
