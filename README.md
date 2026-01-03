@@ -1,4 +1,7 @@
 # YARSS - Yet Another Recursive Sudoku Solver
+
+<p><img src="https://img.shields.io/badge/Windows-supported-0078D6?logo=windows&logoColor=white" alt="Windows"> <img src="https://img.shields.io/badge/Linux-supported-FCC624?logo=linux&logoColor=black" alt="Linux"> <img src="https://img.shields.io/badge/macOS-supported-000000?logo=apple&logoColor=white" alt="macOS"> <img src="https://img.shields.io/badge/Perl-language-39457E?logo=perl&logoColor=white" alt="Perl"></p>
+
 *A program that attempts to solve [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzles through the use of brute force, recursion and backtracking. If there is more than one solution, then it will display them all.*
 
 ## Features
